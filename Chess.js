@@ -81,10 +81,10 @@ function reddish() {
                     a = aside + aup
 
                     if (a % 2 == 0 && pinkColor == greenColor) {
-                        i2.style.backgroundColor = 'rgb(240, 201, 150)'
+                        i2.style.backgroundColor = 'rgb(100, 75, 43)'
                     }
                     if (a % 2 !== 0 && pinkColor == greenColor) {
-                        i2.style.backgroundColor = 'rgb(100, 75, 43)'
+                        i2.style.backgroundColor = 'rgb(240, 201, 150)'
                     }
 
                     // if (pinkColor == greenColor) {
