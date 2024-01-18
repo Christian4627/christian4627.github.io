@@ -36,10 +36,10 @@ function coloring() {
         a = aside + aup
 
         if (a % 2 == 0) {
-            color.style.backgroundColor = 'rgb(0, 0, 0)'
+            color.style.backgroundColor = 'rgb(240, 201, 150)'
         }
         if (a % 2 !== 0) {
-            color.style.backgroundColor = 'rgb(255, 255, 255)'
+            color.style.backgroundColor = 'rgb(100, 75, 43)'
         }
         // if (a % 2 == 0) {
         //     color.style.backgroundColor = 'seagreen'
