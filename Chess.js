@@ -561,11 +561,11 @@ document.querySelectorAll('.box').forEach(item => {
             setTimeout(() => {
                 // console.log(`${toggle}`) 
                 if (tog % 2 == 0) {
-                    alert('White Wins !!')
+                    alert('Wit Wint !!')
                     location.reload()
                 }
                 else if (tog % 2 !== 0) {
-                    alert('Black Wins !!')
+                    alert('Zwart Wint !!')
                     location.reload()
                 }
             }, 100)
