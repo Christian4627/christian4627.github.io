@@ -533,11 +533,11 @@ document.querySelectorAll('.box').forEach(item => {
         // Toggling the turn
 
         if (tog % 2 !== 0) {
-            document.getElementById('tog').innerText = "White's Turn"
+            document.getElementById('tog').innerText = "Wit is aan zet"
             whosTurn('W')
         }
         if (tog % 2 == 0) {
-            document.getElementById('tog').innerText = "Black's Turn"
+            document.getElementById('tog').innerText = "Zwart is aan zet"
             whosTurn('B')
         }
 
