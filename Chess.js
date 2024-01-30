@@ -88,7 +88,7 @@ function reddish() {
                     }
 
                     // if (pinkColor == greenColor) {
-                    //     i2.style.backgroundColor = 'rgb(253, 60, 60)'
+                    //     i2.style.backgroundColor = 'rgb(253, 0, 0)'
                     // }
                 }
             })
