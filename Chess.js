@@ -496,7 +496,7 @@ document.querySelectorAll('.box').forEach(item => {
 
             // KNIGHT
 
-            if (item.innerText == `${toggle}paard-wit-zwart`) {
+            if (item.innerText == `${toggle}knight`) {
 
 
                 if (aside < 7 && aup < 800) {
