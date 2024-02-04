@@ -130,7 +130,9 @@ document.querySelectorAll('.box').forEach(item => {
                 if (i.style.backgroundColor == 'pink') {
                     pinkId = i.id
                     pinkText = i.innerText
-
+// geslagen stuk opslaan in tkp
+                    document.getElementById('tkp').innerText = item.innerText
+                    
                     document.getElementById(pinkId).innerText = ''
                     item.innerText = pinkText
                     coloring()
