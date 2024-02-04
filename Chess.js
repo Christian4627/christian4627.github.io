@@ -131,7 +131,7 @@ document.querySelectorAll('.box').forEach(item => {
                     pinkId = i.id
                     pinkText = i.innerText
 // geslagen stuk opslaan in tkp
-                    document.getElementById('tkp').innerText.push(item.innerText)
+                    document.getElementById('tkp').innerText.push(item.innerText);
                     
                     document.getElementById(pinkId).innerText = ''
                     item.innerText = pinkText
