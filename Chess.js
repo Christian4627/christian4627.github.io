@@ -125,7 +125,7 @@ document.querySelectorAll('.box').forEach(item => {
         }
 
         else if (item.style.backgroundColor == 'green' && item.innerText.length !== 0) {
-
+// hier word geslagen
             document.querySelectorAll('.box').forEach(i => {
                 if (i.style.backgroundColor == 'pink') {
                     pinkId = i.id
@@ -605,14 +605,14 @@ document.querySelectorAll('.box').forEach(item => {
                     a = aside + aup
 
                     if (item2.style.backgroundColor == 'green' && item2.innerText.length == 0) {
-
+// promoveren wit
                         if (pinkText == `Wpawn` && aup == 800) {
 
                             document.getElementById(`b${a}`).innerText = 'Wqueen'
                             document.getElementById(pinkId).innerText = ''
                             coloring()
                             insertImage()
-
+// promoveren zwart
                         }
                         else if (pinkText == `Bpawn` && aup == 100) {
 
@@ -633,7 +633,7 @@ document.querySelectorAll('.box').forEach(item => {
                         }
 
                     }
-
+// wanneer je niet kan rokeren
                     else if (item2.style.backgroundColor == 'aqua') {
                         if(item2.id=='b103'){
                             document.getElementById('b101').innerText = ''
