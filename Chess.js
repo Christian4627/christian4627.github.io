@@ -12,7 +12,7 @@ function insertImage() {
 
             else {
 
-                image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText}.png" alt="">`
+                image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText}.png" alt="" width="30">`
                 image.style.cursor = 'pointer'
             }
         }
@@ -158,6 +158,7 @@ document.querySelectorAll('.box').forEach(item => {
                     
                     document.getElementById(pinkId).innerText = ''
                     item.innerText = pinkText
+                    alert(pinkText + "verplaatst van " + pinkId + " naar " + item.id);
                     coloring()
                     insertImage()
                     tog = tog + 1
