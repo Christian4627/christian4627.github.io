@@ -20,6 +20,25 @@ function insertImage() {
 }
 insertImage()
 
+function vervangMetPlaatje() {
+    document.querySelectorAll('.geslagen').forEach(image => {
+
+        if (image.innerText.length !== 0) {
+            if (image.innerText == 'Wpawn' || image.innerText == 'Bpawn') {
+                image.innerHTML = `${image.innerText} <img class='allimg allpawn' src="${image.innerText}.png" alt="">`;
+            
+
+            }
+
+            else {
+
+                image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText}.png" alt="">`;
+                
+            }
+        }
+    })
+}
+
 
 //Coloring
 
@@ -131,7 +150,10 @@ document.querySelectorAll('.box').forEach(item => {
                     pinkId = i.id
                     pinkText = i.innerText
 // geslagen stuk opslaan in tkp
-                    document.getElementById('tkp').innerText += ' ' + item.innerText
+                    document.getElementById('tkp').innerText += '<span class="geslagen">' + item.innerText + '</span>';
+               //     vervangPlaatje
+                    VervangMetPlaatje();
+                
                     
                     document.getElementById(pinkId).innerText = ''
                     item.innerText = pinkText
