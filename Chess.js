@@ -150,7 +150,8 @@ document.querySelectorAll('.box').forEach(item => {
                     pinkId = i.id
                     pinkText = i.innerText
 // geslagen stuk opslaan in tkp
-                    document.getElementById('tkp').innerText += '<span class="geslagen">' + item.innerText + '</span>';
+                    
+                    document.getElementById('tkp').innerHTML += '<span class="geslagen">' + item.innerText + '</span>';
                //     vervangPlaatje
                     VervangMetPlaatje();
                 
