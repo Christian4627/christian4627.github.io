@@ -153,7 +153,7 @@ document.querySelectorAll('.box').forEach(item => {
                     
                     document.getElementById('tkp').innerHTML += '<span class="geslagen">' + item.innerText + '</span>';
                //     vervangPlaatje
-                    VervangMetPlaatje();
+                    vervangMetPlaatje();
                 
                     
                     document.getElementById(pinkId).innerText = ''
