@@ -27,12 +27,11 @@ function vervangMetPlaatje() {
             if (image.innerText == 'Wpawn' || image.innerText == 'Bpawn') {
                 image.innerHTML = `${image.innerText} <img class='allimg allpawn' src="${image.innerText}.png" alt="">`;
             
-
             }
 
             else {
 
-                image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText}.png" alt="">`;
+                image.innerHTML = `${image.innerText}<img class='allimg' src="${image.innerText}.png" alt="">`;
                 
             }
         }
@@ -158,7 +157,7 @@ document.querySelectorAll('.box').forEach(item => {
                     
                     document.getElementById(pinkId).innerText = ''
                     item.innerText = pinkText
-                    alert(pinkText + "verplaatst van " + pinkId + " naar " + item.id);
+                //    alert(pinkText + "verplaatst van " + pinkId + " naar " + item.id);
                     coloring()
                     insertImage()
                     tog = tog + 1
