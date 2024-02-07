@@ -36,7 +36,6 @@ function vervangMetPlaatje() {
         }
     })
 }
-vervangMetPlaatje()
 
 //Coloring
 
