@@ -25,7 +25,7 @@ function vervangMetPlaatje() {
 
         if (image.innerText.length !== 0) {
             if (image.innerText == 'Wpawn' || image.innerText == 'Bpawn') {
-                image.innerHTML = `${image.innerText}<img class='' src="${image.innerText.trim()}.png" alt="" width="20">`;
+                image.innerHTML = `${image.innerText}<img class='' src="${image.innerText}.png" alt="" width="20">`;
             
             }
 
