@@ -30,8 +30,7 @@ function vervangMetPlaatje() {
             }
 
             else {
-//                              image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText}.png" alt="">`;
-                image.innerHTML = `<img class='allimg' src="${image.innerText}.png" alt="">`;
+                image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText}.png" alt="">`;
                 
             }
         }
