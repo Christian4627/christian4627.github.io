@@ -12,7 +12,7 @@ function insertImage() {
 
             else {
 
-                image.innerHTML = `${image.innerText}<img class='allimg' src="${image.innerText}.png" alt="" width="30">`
+                image.innerHTML = `${image.innerText}<img class='allimg' src="${image.innerText}.png" alt="">`
                 image.style.cursor = 'pointer'
             }
         }
@@ -25,12 +25,12 @@ function vervangMetPlaatje() {
 
         if (image.innerText.length !== 0) {
             if (image.innerText == 'Wpawn' || image.innerText == 'Bpawn') {
-                image.innerHTML = `${image.innerText}<img class='allpawn' src="${image.innerText.trim()}.png" alt="" width="15">`;
+                image.innerHTML = `${image.innerText}<img class='' src="${image.innerText.trim()}.png" alt="" width="30">`;
             
             }
 
             else {
-                image.innerHTML = `${image.innerText}<img class='allimg' src="${image.innerText.trim()}.png" alt="" width="15">`;
+                image.innerHTML = `${image.innerText}<img class='' src="${image.innerText.trim()}.png" alt="" width="30">`;
                 
             }
         }
