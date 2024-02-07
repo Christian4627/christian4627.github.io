@@ -25,12 +25,12 @@ function vervangMetPlaatje() {
 
         if (image.innerText.length !== 0) {
             if (image.innerText == 'Wpawn' || image.innerText == 'Bpawn') {
-                image.innerHTML = `${image.innerText} <img class='allpawn' src="${image.innerText}.png" alt="" width="15">`;
+                image.innerHTML = `${image.innerText} <img class='allpawn' src="${image.innerText.trim()}.png" alt="" width="15">`;
             
             }
 
             else {
-                image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText}.png" alt="" width="15">`;
+                image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText.trim()}.png" alt="" width="15">`;
                 
             }
         }
